@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "1.8.0"
+let version = "1.8.1"
 
 let package = Package(
     name: "plcrashreporter-xcframwork-wrapping",
@@ -19,6 +19,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "CrashReporter", url: "https://eidinger.info/PLCrashReporterXCFrameworks/\(version)/CrashReporter.xcframework.zip",
-                      checksum: "4aa868a8d68dc28c72f564c7a2123654c91da5ff1b6483fb773b97f069e831d4"),
+                      checksum: "4607647f0370819e150ea913cb44c5740c276f77908d1c4e6eeeb077d35a52eb"),
     ]
 )
